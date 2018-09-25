@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "17",
+    "Navn": "Eierutvalget"
+  },
+  {
+    "Id": "7",
+    "Navn": "Eldrerådet"
+  },
+  {
+    "Id": "8",
+    "Navn": "Formannskapet"
+  },
+  {
+    "Id": "19",
+    "Navn": "Hovedutvalg for barn og unge"
+  },
+  {
+    "Id": "12",
+    "Navn": "Hovedutvalg for bistand og omsorg"
+  },
+  {
+    "Id": "26",
+    "Navn": "Hovedutvalg for miljø, idrett og kultur"
+  },
+  {
+    "Id": "4",
+    "Navn": "Klagenemnden"
+  },
+  {
+    "Id": "1",
+    "Navn": "Kommunestyret"
+  },
+  {
+    "Id": "18",
+    "Navn": "Kontrollutvalget (Gå til www.rokus.no)"
+  },
+  {
+    "Id": "9",
+    "Navn": "Planutvalget"
+  },
+  {
+    "Id": "14",
+    "Navn": "Råd for mennesker med nedsatt funksjonsevne"
+  },
+  {
+    "Id": "33",
+    "Navn": "Ungdomsrådet"
+  },
+  {
+    "Id": "5",
+    "Navn": "Utvalg for samarbeid"
+  },
+  {
+    "Id": "10",
+    "Navn": "Valgstyret"
+  }
+]

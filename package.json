@@ -1,0 +1,56 @@
+{
+  "name": "@alheimsins/acos-innsyn",
+  "version": "1.0.0",
+  "description": "Module for authenticate with oauth2 and retreiving data from kontakt- og reservasjonsregisteret",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.11.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "standard && npm audit && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+  },
+  "keywords": [
+    "acos",
+    "innsyn",
+    "api"
+  ],
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "contributors": [
+    {
+      "name": "Jonas Maccyber Enge",
+      "email": "jonas.enge@gmail.com",
+      "url": "https://github.com/maccyber"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alheimsins/acos-innsyn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alheimsins/acos-innsyn/issues"
+  },
+  "homepage": "https://github.com/alheimsins/acos-innsyn#readme",
+  "dependencies": {
+    "axios": "0.18.0",
+    "cheerio": "1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "ava": "0.25.0",
+    "coveralls": "3.0.2",
+    "nyc": "13.0.1",
+    "standard": "12.0.1"
+  }
+}
