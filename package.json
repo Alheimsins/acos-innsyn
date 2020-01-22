@@ -44,7 +44,7 @@
   },
   "homepage": "https://github.com/alheimsins/acos-innsyn#readme",
   "dependencies": {
-    "axios": "0.19.1",
+    "axios": "0.19.2",
     "cheerio": "1.0.0-rc.3"
   },
   "devDependencies": {
