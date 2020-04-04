@@ -16,13 +16,18 @@ Configure the module with an options object containing the endpoint.
 Lists all utvalg.
 
 ```JavaScript
-const { getUtvalg } = require('@alheimsins/acos-innsyn')
-const options = {
-  endpoint: 'https://www.baerum.kommune.no/innsyn/politikk'
-}
-getUtvalg(options)
-  .then(console.log)
-  .catch(console.error)
+(async () => {
+  const { getUtvalg } = require('@alheimsins/acos-innsyn')
+  const options = {
+    endpoint: 'https://www.baerum.kommune.no/innsyn/politikk'
+  }
+  try {
+    const utvalg = await getUtvalg(options)
+    console.log(utvalg)
+  } catch (error) {
+    console.error(error)
+  }
+})()
 ```
 
 ## getMedlemmer
@@ -30,14 +35,19 @@ getUtvalg(options)
 Lists all members of a given utvalg.
 
 ```JavaScript
-const { getMembers } = require('@alheimsins/acos-innsyn')
-const options = {
-  endpoint: 'https://www.baerum.kommune.no/innsyn/politikk',
-  utvalgId: '8'
-}
-getMembers(options)
-  .then(console.log)
-  .catch(console.error)
+(async () => {
+  const { getMedlemmer } = require('@alheimsins/acos-innsyn')
+  const options = {
+    endpoint: 'https://www.baerum.kommune.no/innsyn/politikk',
+    utvalgId: '8'
+  }
+  try {
+    const medlemmer = await getMedlemmer(options)
+    console.log(medlemmer)
+  } catch (error) {
+    console.error(error)
+  }
+})()
 ```
 
 # License
