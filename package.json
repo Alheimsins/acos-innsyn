@@ -4,7 +4,7 @@
   "description": "Module for authenticate with oauth2 and retreiving data from kontakt- og reservasjonsregisteret",
   "main": "index.js",
   "engines": {
-    "node": ">=12.18.2"
+    "node": ">=12.18.3"
   },
   "publishConfig": {
     "access": "public"
