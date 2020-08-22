@@ -58,4 +58,4 @@ Lists all members of a given utvalg.
 
 Created with ❤ for [Alheimsins](https://alheimsins.net)
 
-<img src="https://image.ibb.co/dPH08G/logo_black.png" height="150px" width="150px" />
+<img src="https://image.ibb.co/dPH08G/logo_black.png" alt="Alheimsins logo" height="150px" width="150px" />
