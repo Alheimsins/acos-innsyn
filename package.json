@@ -1,6 +1,6 @@
 {
   "name": "@alheimsins/acos-innsyn",
-  "version": "2.0.5",
+  "version": "3.0.0",
   "description": "A Node.js module for connecting to the Acos Innsyn solution from Acos.",
   "main": "index.js",
   "engines": {
