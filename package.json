@@ -4,7 +4,7 @@
   "description": "A Node.js module for connecting to the Acos Innsyn solution from Acos.",
   "main": "index.js",
   "engines": {
-    "node": ">=12.20.0"
+    "node": ">=14.17.3"
   },
   "publishConfig": {
     "access": "public"
