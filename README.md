@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.com/Alheimsins/acos-innsyn.svg?branch=master)](https://travis-ci.com/Alheimsins/folkevalgt-api)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 # acos-innsyn
